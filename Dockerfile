@@ -2,5 +2,5 @@ FROM node:18
 WORKDIR /app
 COPY . .
 RUN npm install
-EXPOSE 8080
+EXPOSE 3004
 CMD ["node", "server.js"]
